@@ -47,7 +47,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: /*linear-gradient(rgb(22, 21, 21),rgba(19, 18, 18, 0.5)100%),*/ url('/img/toctoc1.jpg');
+    background: linear-gradient(rgb(22, 21, 21),rgba(19, 18, 18, 0.5)100%), url('/img/toctoc1.jpg');
 
     height: 400px;
     background-size:cover;
