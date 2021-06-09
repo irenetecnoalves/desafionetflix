@@ -1,0 +1,100 @@
+:root{
+    --vermelho: #811008e8;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: var(--preta);
+font-family: 'Times New Roman', Times, serif;
+color: lavender;
+
+
+}
+
+header .contanier{ 
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(198, 198, 202);
+    margin-right: 10px;
+
+}
+header nav a:hover{
+    color: rgb(88, 98, 247);
+
+}
+
+
+.filme-principal{
+    font-size: 16px;
+    background: /*linear-gradient(rgb(22, 21, 21),rgba(19, 18, 18, 0.5)100%),*/ url('/img/toctoc1.jpg');
+
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.titulo{
+    margin-top: 25%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: rgb(250, 249, 249);
+    padding: 15px,30px;
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.contanier{ 
+    
+    margin-left: 20px;
+}
+.filme-principal .contanier{ 
+    
+    width: 60%;
+}
+.box-filme{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filme{
+    margin-top: 3px;
+}
